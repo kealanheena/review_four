@@ -7,7 +7,7 @@
     equation_arr = equation.split(' ')
     @sum = equation_arr.first.to_i
     operator = getOperator(equation_arr)
-    equation__num_arr = equation_arr.map { |number| number.to_i }
+    equation_num_arr = equation_arr.map { |number| number.to_i }
     calculate(operator, equation_num_arr)
 
     [equation, @sum]

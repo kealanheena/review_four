@@ -42,7 +42,8 @@ I would like to see the result in the output.
 
 ## Features
 
-
+- calculates an equation thats in the form of a string
+- return the equation along with the answer in an array
 
 ## Tech Used
 
@@ -54,15 +55,17 @@ I would like to see the result in the output.
 
 This app is used in the terminal:
 
-
+You can run it in IRB and create an instance of StringCalculator and then pass it an equation in the form of a string, e.g. "2 + 2", it will then return an array with your equation in the first position and the a nswer in the second position.
 
 
 ## Running The Tests
+
 You can run tests by running rspec in the terminal in the review_four directory.
 
 ### Test Coverage
 
+#### Unit Tests
+
 ## Versioning
 
 review_four uses rubocop version 0.71.0 running bundle install will install rubocop version 0.71.0.
-# review_four

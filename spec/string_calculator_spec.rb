@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require 'review.rb'
+require 'string_calculator.rb'
 
 describe StringCalculator do
   describe '#calculateString' do
