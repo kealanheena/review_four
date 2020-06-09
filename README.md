@@ -2,6 +2,10 @@
 
 This is my Fourth review at Makers.
 
+You can see me do this review here:
+
+https://www.youtube.com/watch?v=YgXhw7Uv4Yc
+
 ## Challenge
 
 Create an app that makes accademic maths tests easier to read. It should take a string and return an array with the equation and the result of the equation.
@@ -65,6 +69,17 @@ You can run tests by running rspec in the terminal in the review_four directory.
 ### Test Coverage
 
 #### Unit Tests
+
+- if there is no operator passed
+  - should return an array with two 1 if 1 is inputed
+  - should return an array with two 2\'s if 2 is inputed
+  - should return an array with two 3\'s if 3 is inputed
+
+- if there is an operator passed
+  - should return an array with the equation and the result
+  - should return an array with the equation and the result
+  - should return an array with the equation and the result
+  - should return an array with the equation and the result
 
 ## Versioning
 
