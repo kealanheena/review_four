@@ -4,10 +4,24 @@ This is my Fourth review at Makers.
 
 ## Challenge
 
+Create an app that makes accademic maths tests easier to read. It should take a string and return an array with the equation and the result of the equation.
+
  e.g.
 ```
+"1 + 1"
 
+This will return:
+
+["1 + 1", 2]
 ```
+
+| input | output|
+| --- | --- |
+| "" | ["", 0] |
+| "1 + 1" | ["1 + 1", 2] |
+| "1 - 1" | ["1 - 1", 0] |
+| "1 * 1" | ["1 * 1", 1] |
+| "1 / 1" | ["1 / 1", 1] |
 
 ## User Stories
 
