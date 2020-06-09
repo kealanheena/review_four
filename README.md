@@ -26,8 +26,17 @@ This will return:
 ## User Stories
 
 ```
+As a User,
+So I can calculate the answer,
+I would like to be able to give the equation as an input.
 
+As a User,
+So I can understand how the student got their result,
+I would like to see the equation in the output.
 
+As a User,
+So I can see if the student got the correct answer,
+I would like to see the result in the output.
 ```
 
 
